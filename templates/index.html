@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Prediction App</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Plant Prediction Web App</h1>
+      <input type="file" id="file-input" accept="image/*" />
+      <button id="upload-btn">Predict Species</button>
+      <img id="image-preview" src="" alt="Uploaded Image" />
+      <div id="predictions">
+        <h2>Predictions</h2>
+        <ul id="predictions-list"></ul>
+      </div>
+    </div>
+
+    <script src="static/script.js"></script>
+  </body>
+</html>
