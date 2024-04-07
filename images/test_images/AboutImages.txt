@@ -1,0 +1,4 @@
+St. John's Wort: from Pl@ntNet-300k training set
+Grass: Google Images
+Tiger Lily: Species outside of defined classes
+

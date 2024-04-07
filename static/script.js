@@ -46,7 +46,7 @@ function displayPredictions(predictions) {
     li.textContent =
       prediction.class +
       " (" +
-      Math.round(prediction.confidence * 1000) / 100 +
+      Math.round(prediction.confidence * 1000) / 10 +
       "%)";
     predictionsList.appendChild(li);
   });
